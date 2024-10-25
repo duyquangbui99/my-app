@@ -11,3 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* Board layout */
+.board-row {
+  display: flex;
+  justify-content: center;
+}
+
+/* Square buttons */
+.square {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  font-size: 2rem;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+/* Hover effect */
+.square:hover {
+  background-color: #e0e0e0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
